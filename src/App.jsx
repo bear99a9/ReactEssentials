@@ -35,7 +35,7 @@ function App() {
           {}
           <ul>
             {CORE_CONCEPTS.map((conceptItem) => (
-              <CoreConcept {...conceptItem} />
+              <CoreConcept key={conceptItem.title} {...conceptItem} /> //Key prop is used as an unique identifer under the hood by react needed to remove console errors
             ))}
           </ul>
         </section>
