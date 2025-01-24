@@ -1,9 +1,8 @@
-import TabButton from './TabButton';
-
-export default function Tabs({ children, buttons }) {
+export default function Tabs({ children, buttons, ButtonsContainer }) {
+  //const ButtonsContainer = buttonsContainer; // If it a capital letter react will treat it as a component and not a build in element as string
   return (
     <>
-      <menu>{buttons}</menu>
+      <ButtonsContainer>{buttons}</ButtonsContainer>
       {children}
     </>
   );
