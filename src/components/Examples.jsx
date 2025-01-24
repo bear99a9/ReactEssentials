@@ -28,7 +28,7 @@ export default function Examples() {
   return (
     <Section title="Examples" id="examples">
       <Tabs
-        ButtonsContainer="menu" // built in elements indentifiers are passed as a string custom components are passed as inside {} I.e {Section}
+        // ButtonsContainer="menu" // built in elements indentifiers are passed as a string custom components are passed as inside {} I.e {Section}
         // The capital means react will treat it as a component and not a build in element as string
         buttons={
           <>
